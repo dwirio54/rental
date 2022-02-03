@@ -1,0 +1,35 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: rgb(247, 248, 253);
+    opacity: 1;
+}
+
+
+.navbar-laravel {
+  background-image: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.jumbotron {
+  background-image: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+  color: white;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.nav-link{
+    color: white;
+}
